@@ -1,0 +1,83 @@
+/* AddStudentForm.css */
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e85858;
+}
+
+.btn-secondary {
+  background-color: #5f27cd;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #4a1f9a;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: #b8e994;
+  color: #006266;
+  border: 1px solid #78e08f;
+}
+
+.alert-danger {
+  background-color: #fab1a0;
+  color: #d63031;
+  border: 1px solid #ff7675;
+}

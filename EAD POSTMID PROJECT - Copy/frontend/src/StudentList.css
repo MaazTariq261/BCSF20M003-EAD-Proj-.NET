@@ -1,0 +1,89 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: auto; /* Hide content that overflows the container */
+}
+
+.table-container {
+  max-height: 400px; /* Set a maximum height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling for overflow */
+  margin-top: 20px;
+}
+
+.table {
+  width: max-content; /* Set the table width to expand as per content */
+  border-collapse: collapse;
+  white-space: nowrap; /* Prevent text wrapping in table cells */
+}
+
+/* Other styles remain unchanged */
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.link-btn,
+.delete-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.link-btn {
+  color: #007bff;
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.link-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.link-btn:disabled,
+.delete-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,118 @@
+/* Styling for the container */
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  
+  .left-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .container01 {
+    display: flex;
+    flex-wrap: wrap; /* Ensures elements wrap if they exceed width */
+    justify-content: space-around; /* Centers the children and distributes space around them */
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1; /* Take up available space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middle-section {
+    flex: 1; /* Take up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px; /* Adds a bit of margin at the top */
+  }
+
+
+  
+  /* Styling for interests containers */
+  .interests-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .top-interests-container,
+  .bottom-interests-container {
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .interest-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Middle section styles */
+  /* .middle-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  } */
+  
+  .distinct-interests-heading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .total-interests-count {
+    margin-top: 10px;
+  }
+  
+  .interests-count-box {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+
+  .table-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+  }
+  
+  .student-status-table {
+    width: 100%; /* Table takes the full width of the container */
+    border-collapse: collapse; /* Merge border of table cells */
+  }
+  
+  .student-status-table th,
+  .student-status-table td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Adjust cell padding */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .student-status-table th {
+    background-color: #f2f2f2; /* Header background color */
+  }
+  
